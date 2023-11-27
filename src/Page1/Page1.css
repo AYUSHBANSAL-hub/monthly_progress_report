@@ -1,0 +1,170 @@
+.Page-1 {
+  width: 50vw;
+  padding: 10px;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(153, 239, 255, 1) 0%,
+    rgba(126, 181, 255, 1) 100%
+  );
+  border: 1px #0077ff solid;
+  width: 250px;
+  height: 200px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+.style-1 {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.roller-container {
+  overflow: hidden;
+  width: 100%;
+  height: 47px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px; /* Rounds the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 100%
+  ); /* Adds a gentle gradient background */
+  margin-bottom: 5px;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  animation: roller 3s ease-in-out 2s infinite alternate;
+}
+
+/* .text {
+    font-size: 40px;
+    color: #404040;
+    text-align: center;
+} */
+.text {
+  font-size: 40px;
+  color: #404040;
+  text-align: center;
+  font-weight: bold; /* Makes the text bolder */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to the text */
+  display: inline-block; /* Needed to apply padding and border-radius */
+  transition: color 0.3s ease-in-out; /* Smooth transition for color changes */
+}
+
+.text:hover {
+  color: #303030; /* Changes the text color when hovered */
+}
+
+@keyframes roller {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -66px;
+  }
+}
+/* @keyframes roller {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: -66px;
+    }
+} */
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: #494f56;
+  opacity: 0.5;
+}
+
+.radar-chart {
+  margin-inline: auto;
+  margin-top: -100px;
+}
+
+.score-cards-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -60px;
+}
+.page-1-bottom-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.page-1-bottom-row-col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-line {
+  height: 150px;
+  border: 0.5px solid #494f56;
+  opacity: 0.5;
+}
+
+.score-div {
+  background-color: white;
+  text-align: center;
+  padding: 2px 15px;
+  border-radius: 5px; /* Rounds the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 100%
+  ); /* Adds a gentle gradient background */
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.psycho-scores {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.psycho-scores > p {
+  width: 150px;
+  text-align: left;
+}
+
+.psychometric {
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 5px; /* Rounds the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 100%
+  ); /* Adds a gentle gradient background */
+}

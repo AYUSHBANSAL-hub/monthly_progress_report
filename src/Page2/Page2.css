@@ -1,0 +1,115 @@
+.Page-2 {
+  width: 50vw;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.page-2-row-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.roadmap-div,.cs-fundamental-score-div{
+    margin-top: 15px;
+}
+.roadmap-div > h2 {
+  display: flex;
+  justify-content: center;
+}
+.page-2-row-1-col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-2-row-1-col-1 > div {
+  display: flex;
+}
+.cs-fundamental-score-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+}
+.bar-chart {
+  width: 55%;
+}
+
+.two-four,
+.one-three {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 0.7em;
+}
+
+.two-four {
+  margin-bottom: -60px;
+}
+.one-three {
+  margin-top: -50px;
+}
+.roadmap-img {
+  display: flex;
+  justify-content: center;
+}
+
+.two {
+  margin-left: 22.5%;
+  text-align: center;
+}
+
+.four {
+  text-align: right;
+}
+
+.one {
+  text-align: left;
+  width: 35%;
+}
+
+.three {
+  margin-top: -25px;
+  text-align: center;
+  margin-right: 20%;
+}
+
+#cta-button {
+  color: white;
+  background-color: #0077ff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bolder;
+  width: 24%;
+  text-align: center;
+}
+
+.cta-div {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(153, 239, 255, 1) 0%,
+    rgba(126, 181, 255, 1) 100%
+  );
+}
+
+.cta-div > h3 {
+  line-height: 25px;
+  font-weight: bolder;
+}
